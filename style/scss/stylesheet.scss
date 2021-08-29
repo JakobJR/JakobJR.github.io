@@ -196,9 +196,9 @@
     }
 }
 
-.icon-wrapper:hover li {
+.icon-wrapper:hover li, .icon-wrapper:active li {
     
-    @include break-mobile {    
+    @include break-mobile {
         max-width: 200px;
         transition-delay: 0.4s;
     }
