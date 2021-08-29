@@ -199,13 +199,14 @@
     }
 }
 
-.icon-wrapper:hover li, .icon-wrapper:active li {
+// interferes with toggling on mobile devices
+// .icon-wrapper:hover li {
     
-    @include break-mobile {
-        max-width: 200px;
-        transition-delay: 0.4s;
-    }
-}
+//     @include break-mobile {
+//         max-width: 200px;
+//         transition-delay: 0.4s;
+//     }
+// }
 
 .hero-section {
     height: 500px;
