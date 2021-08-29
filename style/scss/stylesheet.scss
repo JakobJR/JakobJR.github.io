@@ -11,6 +11,10 @@
     height: 104px;
     padding: 20px;
 
+    @include break-mobile-small {    
+        height: 112px;
+    }
+
     &__inner-wrapper {
         height: 100%;
         max-width: 1140px;
@@ -92,10 +96,8 @@
                     left: 0;
                     top: 0;
                     right: 0;
-                    display: flex;
-                    justify-content: flex-end;
                     margin-right: 20px;
-                    margin-top: 6px;
+                    margin-top: 8px;
                 }
                 
                 .fas {
