@@ -93,7 +93,8 @@
                     top: 0;
                     right: 0;
                     display: flex;
-                    justify-content: center;
+                    justify-content: flex-end;
+                    margin-right: 20px;
                     margin-top: 6px;
                 }
                 
@@ -110,7 +111,6 @@
                     @include break-mobile {    
                         overflow: hidden;
                         max-width: 0px;
-                        // max-width: 200px;
                     }
                 }
 
@@ -696,4 +696,8 @@ footer {
 
 .spin {
     transform: rotate(180deg);
+}
+
+.show-info {
+    max-width: 200px!important;
 }
